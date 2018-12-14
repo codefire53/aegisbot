@@ -1,8 +1,7 @@
 '''Test function for translate function'''
 import unittest
-import sys
-sys.path.append('D:/1. College/DDP/TP4/functions/')
-from translate import translate
+
+from aegisbot.functions.translate import translate
 
 class NamesTestCase(unittest.TestCase):
     def test_translation(self):
