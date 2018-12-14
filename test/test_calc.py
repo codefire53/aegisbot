@@ -1,8 +1,6 @@
 '''Test function for calc function'''
 import unittest
-import sys
-sys.path.append('D:/1. College/DDP/TP4/functions/')
-from calc import calculate
+from aegisbot.functions.calc import calculate
 
 class NamesTestCase(unittest.TestCase):
     def test_addition(self):
