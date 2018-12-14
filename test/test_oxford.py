@@ -1,8 +1,7 @@
 '''Test function for define function'''
 import unittest
-import sys
-sys.path.append('D:/1. College/DDP/TP4/functions/')
-from oxford import define
+
+from aegisbot.functions.oxford import define
 
 class NamesTestCase(unittest.TestCase):
     def test_definition(self):
