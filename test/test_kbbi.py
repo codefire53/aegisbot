@@ -1,7 +1,7 @@
 '''Test Function for search function on kbbi module'''
 import unittest
 
-from aegisbit.functions.kbbi import search
+from aegisbot.functions.kbbi import search
 
 class NamesTestCase(unittest.TestCase):
     def test_translate(self):
