@@ -3,7 +3,8 @@ Aegis Bot is a multi functional line messenger bot
 
 ## Setup
 To setup the dependencies of this program, you can use this following command:
-```pip install -r requirements.txt
+```bash
+  pip install -r requirements.txt
 ```
 
 ## Testing
