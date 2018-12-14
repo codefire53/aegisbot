@@ -1,0 +1,8 @@
+beautifulsoup4
+requests
+urllib3
+line-bot-sdk-python
+wikipedia
+decouple
+Flask
+goslate
