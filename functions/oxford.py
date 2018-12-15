@@ -1,5 +1,6 @@
 '''Importing necessary modules'''
 from urllib.parse import quote
+import urllib
 import requests
 from bs4 import BeautifulSoup
 '''Function to search word/phrase on oxford dictionary'''
@@ -7,7 +8,7 @@ def define(word):
     #Oxford dictionary search query url
     url='https://en.oxforddictionaries.com/definition/'+quote(word)
     #Parse the html file
-    test=requests.get(url).text
+    test=urllib.request.urlopen(url)
     soup=BeautifulSoup(test,'html.parser')
     #Initialize definition list
     lst=[]
